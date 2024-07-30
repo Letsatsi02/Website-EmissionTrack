@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="nav">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="About us.html">About Us</a></li>
+      <li><a href="Projects.html">Projects</a></li>
+      <li><a href="Blog.html">Blog</a></li>
+      <li><a href="Contact us.html">Contact Us</a></li>
+      <li><a href="NewsLetter.html">NewsLetter</a></li>
+    </ul>
+  </nav>
+
+<section class="launch-countdown">
+    <h2>Get Ready for Launch!</h2>
+    <p>EmissionTrack is launching soon! Be one of the first to experience the future of emission tracking.</p>
+    <div class="countdown-container">
+      <div class="countdown">
+        <span id="days">1</span>
+        <span id="hours">14</span>
+        <span id="minutes">2820</span>
+        <span id="seconds">169200</span>
+      </div>
+      <p id="countdown-text">Days, Hours, Minutes, Seconds</p>
+      <img src="pexels-laura-james-6102143.jpg" alt="Image 1" width="300" height="200">
+    </div>
+    <form id="waiting-list-form">
+      <h3>Join the Waiting List for Early Access</h3>
+      <input type="email" id="email" name="email" placeholder="Enter your email address">
+      <button id="join-waiting-list">Join Waiting List</button>
+      <p id="waiting-list-message">You'll be the first to know when EmissionTrack launches!</p>
+    </form>
+  </section>
+    <div class="container">
+        <h1>Stay up-to-date with our newsletter!</h1>
+        <form id="newsletter-form">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Subscribe</button>
+            <div class="thank-you-message" style="display: none;">Thank you for subscribing!</div>
+        </form>
+        <div class="secondary-cta">
+            <h2>Ready to learn more?</h2>
+            <button id="request-demo">Request a Demo</button>
+            <button id="contact-sales">Contact Sales</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* light gray background */
+    font-family: Arial, sans-serif;
+  background-image: url('background photo.png'); /* add background image */
+  background-size: cover; /* make background image cover the whole screen */
+  background-position: center; /* center the background image */
+  height: 100vh; /* make body height equal to viewport height */
+  width: 100vw; /* make body width equal to viewport width */
+  }
+  
+  h1 {
+    color: #2ecc71; /* green heading */
+    margin-bottom: 10px;
+  }
+  
+  .nav {
+    background-color: #2ecc71; /* green background */
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nav li {
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    color: #fff; /* black text */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* add transition effect */
+  }
+  
+  .nav a:hover {
+    background-color: #34c759; /* darker green hover effect */
+    color: #fff;
+  }
+  
+  .nav a.active {
+    background-color: #34c759; /* darker green active effect */
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #2ecc71; /* green heading */
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #0c0101; /* dark black text */
+    margin-bottom: 20px;
+  }
+  
+  /* Add some green accents */
+  .button {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #09d44d;
+  }
+
+  .logo {
+    position: absolute; /* position the logo absolutely */
+    top: 4px; /* adjust the top position */
+    left: 3px; /* adjust the left position */
+    z-index: 1; /* ensure the logo is on top of other elements */
+  }
+  
+  .logo img {
+    width: 120px; /* adjust the logo width to a smaller size */
+    height: auto; /* maintain the aspect ratio */
+    border-radius: 5px; /* add a subtle border radius */
+    border: 1px solid #fff; /* add a white border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow */
+  }
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f7f7f7; /* light green background */
+    padding: 20px;
+  }
+  
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* black background */
+    font-family: Arial, sans-serif;
+  background-size: cover; /* make background image cover the whole screen */
+  background-position: center; /* center the background image */
+  height: 100vh; /* make body height equal to viewport height */
+  width: 100vw; /* make body width equal to viewport width */
+    background-color: #7caf7e; /* light green background */
+}
+
+header {
+    background-color: #69ff7d; /* bright green header */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0e0303; /* black text */
+    font-size: 36px;
+}
+
+.projects-list {
+    background-image: url('pexels-pixabay-414837.jpg'); /* add background image */
+    background-size: cover; /* make background image cover the whole screen */
+    background-position: center; /* center the background image */
+    height: 100vh; /* make body height equal to viewport height */
+    width: 100vw; /* make body width equal to viewport width */
+    padding: 20px;
+    border: 1px solid #7aff81; /* lightgreen border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.salon-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.salon-list li {
+    margin-bottom: 20px;
+}
+
+.salon-list h3 {
+    color: #070000; /* black text */
+    font-size: 24px;
+}
+
+.salon-list {
+    background-color: #12b849; /* lightgreen background */
+    padding: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #50945f; /* lightgreen background */
+}
+.about-us {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.team-member {
+  text-align: center;
+  display: grid;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #006400; /* Dark green */
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #e0ffe0; /* Lighter green */
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #006400; /* Dark green */
+}
+.team-members {
+  display: flex;
+  justify-content: space-around;  
+  flex-wrap: wrap; 
+}
+
+.team-member {
+  flex: 1 0 25%; 
+  text-align: center;
+  padding: 20px;
+}
+
+.team-member img {
+  width: 50%; 
+  border-radius: 20%; 
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-container {
+  text-align: center;
+  margin: 10px;
+}
+
+img {
+  width: 200px;
+  height: 150px; 
+}
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #e0ffe0; /* Light green */
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px;
+  background-color: #f0fff0; /* Lighter green */
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+h2 {
+  margin-top: 10px;
+  color: #006400; /* Dark green */
+}
+
+p {
+  color: #006400; /* Dark green */
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0ffe0; /* Light green */
+  color: #006400; /* Dark green */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #006400; /* Dark green */
+  text-decoration: none;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-container a {
+  margin: 0 10px; 
+}
+
+.icon-container a ion-icon {
+  width: 40px; 
+  height: 60px;
+  color: #006400; /* Dark green */
+}
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s; 
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slideshow {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slide:nth-child(1) {
+  animation: slideshow 8s infinite; 
+  animation-delay: 0s;
+}
+
+.slide:nth-child(2) {
+  animation: slideshow 8s infinite;
+  animation-delay: 2s; 
+}
+
+.slide:nth-child(3) {
+  animation: slideshow 8s infinite;
+  animation-delay: 4s;
+}
+
+.slide:nth-child(4) {
+  animation: slideshow 8s infinite;
+  animation-delay: 6s;
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 200px; 
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 200px; 
+  margin-top: 0px; 
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 30px;
+  background: #87CEEB; /* changed to light blue theme */
+  border: 1px solid #87CEEB; /* changed to light blue border */
+  margin-top: 0px; 
+  color: #333; /* changed to dark gray text color */
+  border-right: none;
+  font-size: 16px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
+}
+
+.btn{
+  width: 100px;
+  height: 30px;
+  background: #87CEEB; /* changed to light blue theme */
+  margin-top: 0px; 
+  color: #333; /* changed to dark gray text color */
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #ADD8E6; /* changed to light blue border */
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1); 
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+.recent-posts {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.recent-posts h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.recent-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 20px;
+}
+
+.recent-posts a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.recent-posts a:hover {
+  color: #23527c;
+}
